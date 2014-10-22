@@ -161,12 +161,16 @@
 
 .unity-mac-new {
   .tab-bar {
-    font:11px "Helvetica Neue";
-    height:26px;
-    background: linear-gradient(#CDCCCD,#C7C6C7);
+    font:12px "Helvetica Neue";
+    height:32px;
+    // background: linear-gradient(#CDCCCD,#C7C6C7);
+    // background: #ebeff0;
+    background: #e8e8e8;
+    background: #ececec;
     display:table;
     table-layout: fixed;
     width:100%;
+    // border-top: 1px solid #b0b0b0;
     padding:0;
   }
 
@@ -174,8 +178,8 @@
     width:100%;
     box-sizing:border-box;
     padding:0 20px!important;
-    line-height:24px;
-    color:#696869;
+    line-height:32px;
+    color:#777;
     text-align:center;
     position:relative;
     border-left:1px solid #b7b5b7;
@@ -203,11 +207,12 @@
   .tab.active,
   .tab:hover.active {
     color:#202020;
-    background: linear-gradient(#DDDCDD, #D6D5D6);
+    // background: linear-gradient(#DDDCDD, #D6D5D6);
+    background: white;
     border-width:1px 0 1px 1px;
     border-top-color:#B5B4B5;
     border-left-color:#B7B6B7;
-    border-bottom-color:#A8A7A8;
+    border-bottom: none;
     padding:0 20px !important;
 
     & .title {
@@ -237,8 +242,8 @@
     &:before {
       content:'✕';
       position:absolute;
-      top:6px;
-      left:5px;
+      top:11px;
+      left:8px;
       width:12px;
       height:13px;
     }
