@@ -5,8 +5,8 @@ module.exports =
     allowTreeViewToScrollHorizontally: false
 
   activate: (state) ->
-      atom.config.observe 'unity-ui.allowTreeViewToScrollHorizontally', ->
-        if atom.config.get('unity-ui.allowTreeViewToScrollHorizontally')
+      atom.config.observe 'champagne-ui.allowTreeViewToScrollHorizontally', ->
+        if atom.config.get('champagne-ui.allowTreeViewToScrollHorizontally')
           $('.tree-view-scroller').addClass('tree-view-scrolls-horizontally')
         else
           $('.tree-view-scroller').removeClass('tree-view-scrolls-horizontally')
@@ -15,7 +15,7 @@ module.exports =
 
       if matches = useragent.match(/Mac OS X 10_([0-9]+)_[0-9]+/i)
         version = parseInt(matches[1], 10)
-        osstyle = if version >= 10 then 'unity-mac-new' else 'unity-mac-old'
+        osstyle = if version >= 10 then 'champagne-mac-new' else 'champagne-mac-old'
         $(document.body).addClass osstyle
 
       $(window).on 'resize', @checkFullscreen
@@ -24,6 +24,6 @@ module.exports =
 
   checkFullscreen: ->
     if $(window).height() + 1 >= screen.height
-      atom.workspaceView.addClass 'unity-ui-fullscreen'
+      atom.workspaceView.addClass 'champagne-ui-fullscreen'
     else
-      atom.workspaceView.removeClass 'unity-ui-fullscreen'
+      atom.workspaceView.removeClass 'champagne-ui-fullscreen'

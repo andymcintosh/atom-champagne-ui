@@ -11,7 +11,7 @@
 
 .tree-view-resizer {
   background: #DDE3E8;
-  border-top:1px solid #717171;
+  border-top: none;
   -webkit-backface-visibility:hidden;
 
   .is-blurred & {
@@ -20,7 +20,7 @@
     }
   }
 
-  .unity-ui-fullscreen & {
+  .champagne-ui-fullscreen & {
     border-top:none;
   }
 }
@@ -29,12 +29,12 @@
   overflow-x:hidden;
 }
 
-.panel-left.tree-view-resizer {
-  border-right: 1px solid #717171;
+.panel-left .tree-view-resizer {
+  border-right: 1px solid #b0b0b0; 
 }
 
-.panel-right.tree-view-resizer {
-  border-left: 1px solid #717171;
+.panel-right .tree-view-resizer {
+  border-left: 1px solid #b0b0b0;
 }
 
 .header.list-item {
@@ -239,14 +239,15 @@
   }
 }
 
-.unity-mac-new {
+.champagne-mac-new {
   .tree-view {
     font:12px/15px "Helvetica Neue";
   }
 
   .tree-view-resizer {
-    border-top:1px solid #b0b0b0;
+    // border-top:1px solid #b0b0b0;
     // background:#ececec;
+    border-top: none;
     background: white;
     background: #ececec;
     border-color:#b0b0b0;

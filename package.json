@@ -1,29 +1,29 @@
 {
-  "name": "unity-ui",
+  "name": "champagne-ui",
   "theme": "ui",
   "version": "1.0.1",
-  "main": "./lib/unity-ui",
+  "main": "./lib/champagne-ui",
   "private": false,
-  "description": "An Atom theme for a more native experience on OS X.",
+  "description": "A theme based on champagne UI",
   "repository": {
     "type": "git",
-    "url": "https://github.com/orderedlist/unity-ui"
+    "url": "https://github.com/andymcintosh/atom-champagne-ui"
   },
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "readme": "# Unity UI\n\nAn Atom theme for a more native experience on OS X\n\n### If you're using Yosemite\n\n![Yosemite](https://cloud.githubusercontent.com/assets/1680/4297616/d0653174-3e0f-11e4-9cdf-9bc61ad0d8a2.png)\n\n### If you're using Mavericks\n\n![The Pretty](https://cloud.githubusercontent.com/assets/1680/2325779/23814d3c-a3da-11e3-9ad7-7ec2a3ccf0e0.png)\n\n## Install\n\nFrom the command line:\n\n```bash\n$ apm install unity-ui\n```\n\nAlternatively, open Atom Preferences, select Themes > Search for `unity`,\nthen Install.\n\nActivate the theme by selecting the Themes section of Preferences.\n",
+  "readme": "# champagne UI\n\nAn Atom theme for a more native experience on OS X\n\n### If you're using Yosemite\n\n![Yosemite](https://cloud.githubusercontent.com/assets/1680/4297616/d0653174-3e0f-11e4-9cdf-9bc61ad0d8a2.png)\n\n### If you're using Mavericks\n\n![The Pretty](https://cloud.githubusercontent.com/assets/1680/2325779/23814d3c-a3da-11e3-9ad7-7ec2a3ccf0e0.png)\n\n## Install\n\nFrom the command line:\n\n```bash\n$ apm install champagne-ui\n```\n\nAlternatively, open Atom Preferences, select Themes > Search for `champagne`,\nthen Install.\n\nActivate the theme by selecting the Themes section of Preferences.\n",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/orderedlist/unity-ui/issues"
+    "url": "https://github.com/orderedlist/champagne-ui/issues"
   },
-  "homepage": "https://github.com/orderedlist/unity-ui",
-  "_id": "unity-ui@1.0.1",
+  "homepage": "https://github.com/orderedlist/champagne-ui",
+  "_id": "champagne-ui@1.0.1",
   "dist": {
     "shasum": "9622d1ed450a1a873c7d93fcf0bfe550e14334bc"
   },
-  "_from": "/Users/andy/.atom/.node-gyp/.atom/.apm/unity-ui/1.0.1/package.tgz",
+  "_from": "/Users/andy/.atom/.node-gyp/.atom/.apm/champagne-ui/1.0.1/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
